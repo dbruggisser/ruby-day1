@@ -1,6 +1,6 @@
 puts "On va compter le nombre d'heures de travail à THP" #prints a string
 puts "Travail : #{10 * 5 * 11}" #prints Travail : 550
-puts "En minutes ça fait : #{10 * 5 * 11 * 60}" #prints En minutes ça fait : 33000 #{} prints the math result inside a string
+puts "En minutes ça fait : #{10 * 5 * 11 * 60}" #prints En minutes ça fait : 33000
 
 puts "Et en secondes ?" #prints a string
 
@@ -20,3 +20,7 @@ puts "C'est drôle ça, faisons-en plus :" #prints a string
 puts "Est-ce que 5 est plus grand que -2 ? #{5 > -2}" #prints Est-ce que 5 est plus grand que -2 ? true
 puts "Est-ce que 5 est supérieur ou égal à -2 ? #{5 >= -2}" #prints Est-ce que 5 est supérieur ou égal à -2 ? true
 puts "Est-ce que 5 est inférieur ou égal à -2 ? #{5 <= -2}" #prints Est-ce que 5 est inférieur ou égal à -2 ? false
+
+=begin
+Using this syntax everything between the opening #{ and closing } bits is evaluated as Ruby code, and the result of this evaluation will be embedded into the string surrounding it.
+=end
